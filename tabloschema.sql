@@ -1,0 +1,7 @@
+CREATE TABLE tabl (
+  id INTEGER AUTO INCREMENT,
+  modelid TEXT FOREING KEY NOT NULL,
+  ad TEXT UNIQUE NOT NULL,
+  yas INTEGER,
+  maliyet FLOAT
+);
